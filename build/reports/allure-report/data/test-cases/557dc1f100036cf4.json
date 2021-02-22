@@ -1,0 +1,112 @@
+{
+  "uid" : "557dc1f100036cf4",
+  "name" : "LoginTest",
+  "fullName" : "AmazonTests.LoginTest",
+  "historyId" : "5b83c7cd4c4d9408f4f2eb762b763c89",
+  "time" : {
+    "start" : 1613978181594,
+    "stop" : 1613978198699,
+    "duration" : 17105
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AmazonTests"
+  }, {
+    "name" : "testClass",
+    "value" : "AmazonTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "LoginTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite",
+    "value" : "Gradle test"
+  }, {
+    "name" : "subSuite",
+    "value" : "AmazonTests"
+  }, {
+    "name" : "host",
+    "value" : "ip-192-168-31-88.eu-central-1.compute.internal"
+  }, {
+    "name" : "thread",
+    "value" : "56415@ip-192-168-31-88.eu-central-1.compute.internal.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c30dc79190223a97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613978109721,
+        "stop" : 1613978138413,
+        "duration" : 28692
+      }
+    }, {
+      "uid" : "b5f1fe82c6eec970",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[@class='a-section a-spacing-none' and ancestor::div[@data-index='1'] and child::img]}\nExpected: enabled\nScreenshot: file:/Users/vladimir.s/Documents/projects/wisebits/build/reports/tests/1613976914609.0.png\nPage source: file:/Users/vladimir.s/Documents/projects/wisebits/build/reports/tests/1613976914609.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='a-section a-spacing-none' and ancestor::div[@data-index='1'] and child::img]\"}",
+      "time" : {
+        "start" : 1613976899606,
+        "stop" : 1613976915400,
+        "duration" : 15794
+      }
+    }, {
+      "uid" : "76e63b23239a4e7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613975511841,
+        "stop" : 1613975520679,
+        "duration" : 8838
+      }
+    }, {
+      "uid" : "d70bbcfff6f0f5ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613972980045,
+        "stop" : 1613972984409,
+        "duration" : 4364
+      }
+    }, {
+      "uid" : "5ad33daf12f1f1af",
+      "status" : "broken",
+      "statusDetails" : "Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ip-192-168-31-88.eu-central-1.compute.internal', ip: '192.168.31.88', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '15.0.1'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://amazon.co.uk\nselenide.baseUrl: http://localhost:8080",
+      "time" : {
+        "start" : 1613972940905,
+        "stop" : 1613972943251,
+        "duration" : 2346
+      }
+    }, {
+      "uid" : "3d76405f28ea593",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613972866970,
+        "stop" : 1613972873452,
+        "duration" : 6482
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "557dc1f100036cf4.json",
+  "parameterValues" : [ ]
+}

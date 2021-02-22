@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "AmazonTests",
+    "children" : [ {
+      "name" : "LoginTest",
+      "uid" : "557dc1f100036cf4",
+      "parentUid" : "edaa8afa67aaa09d10a6590b2d5660b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613978181594,
+        "stop" : 1613978198699,
+        "duration" : 17105
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "AmazonTest",
+      "uid" : "cda5aff568b32dc3",
+      "parentUid" : "edaa8afa67aaa09d10a6590b2d5660b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613980728370,
+        "stop" : 1613980745819,
+        "duration" : 17449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "edaa8afa67aaa09d10a6590b2d5660b9"
+  } ]
+}

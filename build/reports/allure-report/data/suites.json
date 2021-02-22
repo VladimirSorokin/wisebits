@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Gradle suite",
+    "children" : [ {
+      "name" : "Gradle test",
+      "children" : [ {
+        "name" : "AmazonTests",
+        "children" : [ {
+          "name" : "LoginTest",
+          "uid" : "557dc1f100036cf4",
+          "parentUid" : "5339f751d2c0cbd916f6d2f056929525",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613978181594,
+            "stop" : 1613978198699,
+            "duration" : 17105
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "AmazonTest",
+          "uid" : "cda5aff568b32dc3",
+          "parentUid" : "5339f751d2c0cbd916f6d2f056929525",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613980728370,
+            "stop" : 1613980745819,
+            "duration" : 17449
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5339f751d2c0cbd916f6d2f056929525"
+      } ],
+      "uid" : "6edf7b6d6ec097775c478f55491c2a49"
+    } ],
+    "uid" : "350742de9190af4e6a560acc7ec0396c"
+  } ]
+}
